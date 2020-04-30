@@ -34,7 +34,7 @@
    "dependencies": {
       "lit-element": "^2.2.1",
       "@domoskanonos/frontend-basis": "latest",
-      "@domoskanonos/wc-atomic": "latest",
+      "@domoskanonos/wc-atomic": "latest"
    },
    "author": "Dominik Bruhn",
    "scripts": {

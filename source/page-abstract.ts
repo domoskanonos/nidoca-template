@@ -1,7 +1,7 @@
 import { html, property, TemplateResult } from 'lit-element';
-import { BasisTemplate, TypographyType } from '../index';
+import { BasisTemplate, TypographyType } from '@domoskanonos/wc-atomic';
 import { I18nService } from '@domoskanonos/frontend-basis';
-import { DividerType } from '../divider/component';
+import { DividerType } from '@domoskanonos/wc-atomic/source/divider/component';
 
 export abstract class PageAbstract extends BasisTemplate {
    @property()
