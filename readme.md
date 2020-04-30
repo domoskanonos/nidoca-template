@@ -1,23 +1,17 @@
-# WC-Atomic Framework (wc-atomic-core)
+# Nidoca Framework Template (nidoca-template)
 
 ## Introduction
 
-wc-atomic is a lightweight ui-framework based on
+nidoca is a lightweight ui-framework based on
 [webcomponents](https://www.webcomponents.org/),
 [typescript](https://www.typescriptlang.org/)
 and [litelement](https://lit-element.polymer-project.org/).
 
-visit showcase page: [wc-atomic.de](http://wc-atomic.de)
+This is the github repo for a basic ready to start template.
+You can use it for clean and new projects written in nidoca.
 
-## Installation:
+visit nidoca template page: [template.nidoca.de](http://template.nidoca.de)
+visit nidoca showcase page: [showcase-nidoca.de](http://showcase.nidoca.de)
 
-Installation is simple with [npm](https://www.npmjs.com/package/@domoskanonos/wc-atomic):
-
-    npm i @domoskanonos/wc-atomic
-
-or refer directly in package.json:
-
-    "dependencies": {
-        "@domoskanonos/wc-atomic": "latest",
-    }
-
+## Use this template
+This git repo is a template repo, so you just need to clone it.
