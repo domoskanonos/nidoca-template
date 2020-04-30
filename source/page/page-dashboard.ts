@@ -5,8 +5,7 @@ import { TypographyType } from '@domoskanonos/wc-atomic';
 
 @customElement('page-dashboard')
 export class PageDashboard extends PageAbstract {
-
-    constructor() {
+   constructor() {
       super();
       this.navigationTitle = I18nService.getUniqueInstance().getValue('dashboard');
    }

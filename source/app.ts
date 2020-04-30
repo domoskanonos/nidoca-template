@@ -6,7 +6,6 @@ import messageDE from './i18n/message-de.json';
 import messageEN from './i18n/message-en.json';
 
 import './page/page-dashboard';
-import './page/page-imprint';
 
 @customElement('app-root')
 export class App extends AbstractApp {

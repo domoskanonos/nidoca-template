@@ -32,7 +32,7 @@
       "webpack-dev-server": "^3.2.0"
    },
    "dependencies": {
-      "lit-element": "^2.2.1",
+      "lit-element": "^2.3.1",
       "@domoskanonos/frontend-basis": "latest",
       "@domoskanonos/wc-atomic": "latest"
    },
@@ -40,10 +40,8 @@
    "scripts": {
       "start": "./node_modules/.bin/webpack-dev-server --config webpack.dev.js --open",
       "build_typescript": "tsc -p ./",
+      "build": "./node_modules/.bin/webpack --config webpack.prod.js --progress",
       "pretty": "prettier --write \"./**/*.{ts,json}\"",
-      "build_dev": "./node_modules/.bin/webpack --config webpack.dev.js --progress",
-      "new-version": "npm version patch & npm publish --access=public",
-      "unpublish": "npm unpublish --force",
       "test": "echo \"Error: no test specified\" && exit 1"
    }
 }

@@ -44,12 +44,6 @@ export abstract class PageAbstract extends BasisTemplate {
             text="${I18nService.getUniqueInstance().getValue('dashboard')}"
             href="dashboard"
          ></component-navigation-link>
-         <component-navigation-link
-            slot="links"
-            icon=""
-            text="${I18nService.getUniqueInstance().getValue('imprint')}"
-            href="imprint"
-         ></component-navigation-link>
       `;
    }
 }
