@@ -12,7 +12,7 @@ export class PageDashboard extends PageAbstract {
 
    getMainComponent(): TemplateResult {
       return html`
-         <component-typography .typographyType="${TypographyType.H1}">Dashboard Nidoca Template</component-typography>
+         <component-typography .typographyType="${TypographyType.H1}">Dashboard</component-typography>
       `;
    }
 }
