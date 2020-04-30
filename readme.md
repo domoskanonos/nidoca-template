@@ -10,7 +10,7 @@ and [litelement](https://lit-element.polymer-project.org/).
 This is the github repo for a basic ready to start template.
 You can use it for clean and new projects written in nidoca.
 
-visit nidoca template page: <a href="http://template.nidoca.de">http://template.nidoca.de</a>
+visit nidoca template page: <a target="_blank" href="http://template.nidoca.de">http://template.nidoca.de</a>
 visit nidoca showcase page: [showcase-nidoca.de](http://showcase.nidoca.de)
 
 ## Use this template
