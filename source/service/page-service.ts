@@ -17,10 +17,16 @@ export class PageService {
     let currentPage = RouterService.getUniqueInstance().getCurrentPage();
     console.log('render page: '.concat(currentPage));
     switch (currentPage) {
+      case 'settings':
+        return html`
+          <page-settings></page-settings>
+        `;
       case '':
       case 'dashboard':
       default:
-        return html` <page-dashboard></page-dashboard> `;
+        return html`
+          <page-dashboard></page-dashboard>
+        `;
     }
   }
 }
